@@ -5,7 +5,7 @@ import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Nested
 import org.junit.jupiter.api.Test
 
-abstract class BaseTest {
+open class BaseTest {
 
     @Test
     fun testMultiply() {
